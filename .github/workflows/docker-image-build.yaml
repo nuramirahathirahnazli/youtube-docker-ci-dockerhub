@@ -2,10 +2,8 @@ name: Build and Push Docker Image
 
 on:
  push: 
-    # Push to main branch triggers the workflow
    branches:
      - main
- # bila commit, akan ada PR untuk validated before merge
  pull_request:
 
 jobs:
